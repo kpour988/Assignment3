@@ -1,0 +1,80 @@
+div.page {
+	max-width: 100%;
+	max-height: 800px;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+div.header {
+	display: block;
+	width: 1280px;
+	height: 140px;
+
+}
+#logo{
+	float: left;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+ul {
+	float:right;
+	position:relative;	
+	top:75px;
+}
+
+li		{
+	display: inline;
+	margin:10px;
+	padding: 10px;
+	list-style-type: none;
+	font-family: "cabin", sans-serif;
+	font-size:20px;
+	font-color:#11111;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li a:hover{
+	color: lightgrey;
+}
+
+li a:active{
+	color: blue;
+}
+
+div.img{
+	display: inline;
+	position: relative;
+	top:0px;
+	left:100px;
+}
+
+#profile{
+	float:left;
+	position: absolute;
+	top:0px;
+	left:0px;
+	opacity: 0.2;
+	z-index: -1;
+}
+#resumebutton{
+	border:2px solid black;
+	width:10%;
+}
+
+p {
+
+	display:block;
+	position: relative;
+	left:200px;
+	text-decoration: none;
+	font-family: "cabin", sans-serif;
+	font-size:40px;
+	line-height:150%;
+
+}
+
